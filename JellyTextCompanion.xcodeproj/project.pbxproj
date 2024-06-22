@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73AE5B82C2648DD00F1BE61 /* TreeSitterJellyRunestone in Frameworks */ = {isa = PBXBuildFile; productRef = D73AE5B72C2648DD00F1BE61 /* TreeSitterJellyRunestone */; };
+		D7C0C4A32C24FEEB00B49857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C4A22C24FEEB00B49857 /* AppDelegate.swift */; };
+		D7C0C4A52C24FEEB00B49857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C4A42C24FEEB00B49857 /* SceneDelegate.swift */; };
+		D7C0C4A72C24FEEB00B49857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C4A62C24FEEB00B49857 /* ViewController.swift */; };
+		D7C0C4AA2C24FEEB00B49857 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D7C0C4A92C24FEEB00B49857 /* Base */; };
+		D7C0C4AC2C24FEEC00B49857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C0C4AB2C24FEEC00B49857 /* Assets.xcassets */; };
+		D7C0C4AF2C24FEEC00B49857 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D7C0C4AE2C24FEEC00B49857 /* Base */; };
+		D7C0C4B82C24FF5000B49857 /* Runestone in Frameworks */ = {isa = PBXBuildFile; productRef = D7C0C4B72C24FF5000B49857 /* Runestone */; };
+		D7C0C4BA2C2502BD00B49857 /* UserDefaults+TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C4B92C2502BD00B49857 /* UserDefaults+TextStorage.swift */; };
+		D7C0C4BD2C25042500B49857 /* Open-Jellycore in Frameworks */ = {isa = PBXBuildFile; productRef = D7C0C4BC2C25042500B49857 /* Open-Jellycore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7C0C49F2C24FEEB00B49857 /* JellyTextCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyTextCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C0C4A22C24FEEB00B49857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7C0C4A42C24FEEB00B49857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7C0C4A62C24FEEB00B49857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7C0C4A92C24FEEB00B49857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7C0C4AB2C24FEEC00B49857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7C0C4AE2C24FEEC00B49857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7C0C4B02C24FEEC00B49857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C0C4B92C2502BD00B49857 /* UserDefaults+TextStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+TextStorage.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C0C49C2C24FEEB00B49857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C0C4BD2C25042500B49857 /* Open-Jellycore in Frameworks */,
+				D73AE5B82C2648DD00F1BE61 /* TreeSitterJellyRunestone in Frameworks */,
+				D7C0C4B82C24FF5000B49857 /* Runestone in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7C0C4962C24FEEB00B49857 = {
+			isa = PBXGroup;
+			children = (
+				D7C0C4A12C24FEEB00B49857 /* JellyTextCompanion */,
+				D7C0C4A02C24FEEB00B49857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C0C4A02C24FEEB00B49857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C0C49F2C24FEEB00B49857 /* JellyTextCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C0C4A12C24FEEB00B49857 /* JellyTextCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				D7C0C4A22C24FEEB00B49857 /* AppDelegate.swift */,
+				D7C0C4A42C24FEEB00B49857 /* SceneDelegate.swift */,
+				D7C0C4A62C24FEEB00B49857 /* ViewController.swift */,
+				D7C0C4B92C2502BD00B49857 /* UserDefaults+TextStorage.swift */,
+				D7C0C4A82C24FEEB00B49857 /* Main.storyboard */,
+				D7C0C4AB2C24FEEC00B49857 /* Assets.xcassets */,
+				D7C0C4AD2C24FEEC00B49857 /* LaunchScreen.storyboard */,
+				D7C0C4B02C24FEEC00B49857 /* Info.plist */,
+			);
+			path = JellyTextCompanion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C0C49E2C24FEEB00B49857 /* JellyTextCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C0C4B32C24FEEC00B49857 /* Build configuration list for PBXNativeTarget "JellyTextCompanion" */;
+			buildPhases = (
+				D7C0C49B2C24FEEB00B49857 /* Sources */,
+				D7C0C49C2C24FEEB00B49857 /* Frameworks */,
+				D7C0C49D2C24FEEB00B49857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyTextCompanion;
+			packageProductDependencies = (
+				D7C0C4B72C24FF5000B49857 /* Runestone */,
+				D7C0C4BC2C25042500B49857 /* Open-Jellycore */,
+				D73AE5B72C2648DD00F1BE61 /* TreeSitterJellyRunestone */,
+			);
+			productName = JellyTextCompanion;
+			productReference = D7C0C49F2C24FEEB00B49857 /* JellyTextCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C0C4972C24FEEB00B49857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D7C0C49E2C24FEEB00B49857 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D7C0C49A2C24FEEB00B49857 /* Build configuration list for PBXProject "JellyTextCompanion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C0C4962C24FEEB00B49857;
+			packageReferences = (
+				D7C0C4B62C24FF5000B49857 /* XCRemoteSwiftPackageReference "Runestone" */,
+				D7C0C4BB2C25042500B49857 /* XCRemoteSwiftPackageReference "Open-Jellycore" */,
+				D73AE5B62C2648DD00F1BE61 /* XCRemoteSwiftPackageReference "TreeSitterJellyRunestone" */,
+			);
+			productRefGroup = D7C0C4A02C24FEEB00B49857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C0C49E2C24FEEB00B49857 /* JellyTextCompanion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C0C49D2C24FEEB00B49857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C0C4AC2C24FEEC00B49857 /* Assets.xcassets in Resources */,
+				D7C0C4AF2C24FEEC00B49857 /* Base in Resources */,
+				D7C0C4AA2C24FEEB00B49857 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C0C49B2C24FEEB00B49857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C0C4A72C24FEEB00B49857 /* ViewController.swift in Sources */,
+				D7C0C4BA2C2502BD00B49857 /* UserDefaults+TextStorage.swift in Sources */,
+				D7C0C4A32C24FEEB00B49857 /* AppDelegate.swift in Sources */,
+				D7C0C4A52C24FEEB00B49857 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7C0C4A82C24FEEB00B49857 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C0C4A92C24FEEB00B49857 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7C0C4AD2C24FEEC00B49857 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C0C4AE2C24FEEC00B49857 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C0C4B12C24FEEC00B49857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7C0C4B22C24FEEC00B49857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C0C4B42C24FEEC00B49857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3266K738QH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JellyTextCompanion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjfjfjfj.JellyTextCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C0C4B52C24FEEC00B49857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3266K738QH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JellyTextCompanion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjfjfjfj.JellyTextCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C0C49A2C24FEEB00B49857 /* Build configuration list for PBXProject "JellyTextCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C0C4B12C24FEEC00B49857 /* Debug */,
+				D7C0C4B22C24FEEC00B49857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C0C4B32C24FEEC00B49857 /* Build configuration list for PBXNativeTarget "JellyTextCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C0C4B42C24FEEC00B49857 /* Debug */,
+				D7C0C4B52C24FEEC00B49857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D73AE5B62C2648DD00F1BE61 /* XCRemoteSwiftPackageReference "TreeSitterJellyRunestone" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chrysaora-achlyos/TreeSitterJellyRunestone";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D7C0C4B62C24FF5000B49857 /* XCRemoteSwiftPackageReference "Runestone" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simonbs/Runestone";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+		D7C0C4BB2C25042500B49857 /* XCRemoteSwiftPackageReference "Open-Jellycore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chrysaora-achlyos/Open-Jellycore";
+			requirement = {
+				branch = lab000;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D73AE5B72C2648DD00F1BE61 /* TreeSitterJellyRunestone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D73AE5B62C2648DD00F1BE61 /* XCRemoteSwiftPackageReference "TreeSitterJellyRunestone" */;
+			productName = TreeSitterJellyRunestone;
+		};
+		D7C0C4B72C24FF5000B49857 /* Runestone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7C0C4B62C24FF5000B49857 /* XCRemoteSwiftPackageReference "Runestone" */;
+			productName = Runestone;
+		};
+		D7C0C4BC2C25042500B49857 /* Open-Jellycore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7C0C4BB2C25042500B49857 /* XCRemoteSwiftPackageReference "Open-Jellycore" */;
+			productName = "Open-Jellycore";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D7C0C4972C24FEEB00B49857 /* Project object */;
+}

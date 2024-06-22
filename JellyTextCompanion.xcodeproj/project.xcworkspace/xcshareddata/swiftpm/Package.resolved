@@ -1,0 +1,60 @@
+{
+  "originHash" : "52d46f288aa4ad2460e6012ad1026a032b908787ade7cf6c17608b12b4136179",
+  "pins" : [
+    {
+      "identity" : "open-jellycore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chrysaora-achlyos/Open-Jellycore",
+      "state" : {
+        "branch" : "lab000",
+        "revision" : "417b9c4926f53a26719349843f2df85efb0ee592"
+      }
+    },
+    {
+      "identity" : "runestone",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/simonbs/Runestone",
+      "state" : {
+        "revision" : "1fad339aab99cf2136ce6bf8c32da3265b2e85e5",
+        "version" : "0.5.1"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "0fbc8848e389af3bb55c182bc19ca9d5dc2f255b",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "tree-sitter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tree-sitter/tree-sitter",
+      "state" : {
+        "revision" : "98be227227af10cc7a269cb3ffb23686c0610b17",
+        "version" : "0.20.9"
+      }
+    },
+    {
+      "identity" : "tree-sitter-jelly",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chrysaora-achlyos/tree-sitter-jelly",
+      "state" : {
+        "branch" : "lab000",
+        "revision" : "2ab3767f26c4b1233a31bf6ea9da58823331865d"
+      }
+    },
+    {
+      "identity" : "treesitterjellyrunestone",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chrysaora-achlyos/TreeSitterJellyRunestone",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9d1f8ce9ad2010a729cf8f09a0c5d0b86e0c6109"
+      }
+    }
+  ],
+  "version" : 3
+}
